@@ -1,16 +1,16 @@
 # Maintainer: Adhi Pambudi <addy4rock@gmail.com>
 
 pkgname=xfwm4-standalone
-pkgver=1.00
+pkgver=1.01
 pkgrel=1
 pkgdesc="Just a helper for running Xfwm4 session without a full desktop environment. I include xfwm4.dekstop file to make xfwm4 session appears in your login manager. And a startup file in ~/.config/xfwm4 to make your life easier, edit this file and include every of your programs those need to be executed on login. Maybe this package is useless :D"
 arch=('any')
 license=('GPL')
-depends=('xfwm4' 'xfce4-settings' 'xfdesktop')
+depends=('xfwm4')
 makedepends=('git')
 provides=()
 conflicts=()
-source=("git+https://github.com/addy-dclxvi/xfwm4-standalone.git")
+source=("git+https://github.com/EleotleCram/xfwm4-standalone.git")
 md5sums=('SKIP')
 sha256sums=('SKIP')
 
